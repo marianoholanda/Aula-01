@@ -1,0 +1,6 @@
+#print (10*50)
+#multiplicação = 10 * 50
+#print(multiplicação)
+
+n1 = input('Digite o primeiro número: ')
+n2 = input('Digite o segundo número: ')
