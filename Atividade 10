@@ -1,0 +1,12 @@
+n1 = float(input('Qual o primeiro número: '))
+n2 = float(input('Qual o segundo número: '))
+soma =  n1 + n2
+subtação = n1 - n2
+multiplicação =  n1 * n2
+divisão = n1 / n2
+
+
+print('A soma dos dois números é: ', soma)
+print('A subtração dos dois números é: ', subtação)
+print('A multiplicação dos dois números é: ', multiplicação)
+print('A divisão dos dois números é: ', divisão)
