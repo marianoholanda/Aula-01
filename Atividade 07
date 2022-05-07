@@ -1,0 +1,4 @@
+print((8 + 9 + 7)/3)
+
+soma = 8 + 9 + 7
+print(soma/3)
