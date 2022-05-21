@@ -86,5 +86,131 @@ print(2==2)#2)True
 print(('b' == 'b') and (3<2))
 print((3<2) or (4>1))"""
 
+"""Atividade 04
+Crie um código para indicar se o número 
+digitado pelo usuário é POSITIVO ou NEGATIVO.
+
+numero = int(input("Digite um número: "))
+if numero > 0:
+    print("Este número é positivo!")
+else:
+    print("Este número é negativo!")"""
+    
+ """Atividade 04.1
+Crie um código para indicar se o número 
+digitado pelo usuário é POSITIVO, NEGATIVO OU ZERO."""
+
+
+"""numero = int(input("Digite um número: "))
+if numero > 0:
+    print("Este número é positivo!")
+elif numero < 0:
+    print("Este número é negativo!")
+else:
+    print("Você digitou zero!")"""
+    
+velocidade= int(input('Qual a velocidade do carro? '))
+if velocidade <= 60:
+    print('Esta velocidade é permitida')
+elif velocidade >60 and velocidade < 80:
+    print('Alta velocidade')
+elif velocidade > 80 and velocidade <120:
+    print('Muito rápido')
+else:
+    print("vuado")
+    
+   
+ altura = float(input('Qual a sua altura:'))
+peso = float(input('Qual o seu peso:'))
+imc = (peso/ (altura**2))
+if imc <18.5:
+    print('Abaixo do peso')
+elif imc >=18.5 and imc < 29.9:
+    print('IMC Normal')
+elif imc >=29.9 and imc <39.9:
+    print("Obesidade Tipo 1")
+else:
+    print("Obesidade mórbida")
+    
+ 
+
+"""ATIVIDADE 07
+Crie o seguinte jogo:
+Peça um palpite ao usuário.
+Indique se o palpite é menor, maior ou se é igual ao número secreto.
+
+OBS: Escolha um número secreto inteiro (0, 50) para ser a resposta."""
+
+
+numero_secreto = 34
+palpite = int(input("Digite o seu palpite: "))
+if palpite < numero_secreto:
+    print("Seu palpite é MENOR do que o número secreto!")
+elif palpite > numero_secreto:
+    print("Seu palpite é MAIOR do que o número secreto!")
+else:
+    print("Parabéns, você acertou!")
+    
+    
+    temperatura = float(input("Digite a temperatura do paciente: "))
+if temperatura <= 37:
+    print("Temperatura normal")
+elif temperatura <= 37.8:
+    print("Febril.")
+elif temperatura <= 38.5:
+    print("Febre Leve")
+elif temperatura <= 39.4:
+    print("Febre Moderada")
+else:
+    print("ATENÇÃO: Febre Grave!")
+    
+   
+ questão 12
+
+Peça o usuário e a senha:
+O acesso só é permitido se o usuário for INFINITY e a senha school.
+Caso não ocorra o cruzamento das informações acima, mostre em tela ACESSO NEGADO.
+
+
+usuario = input("Informe o usuario: ")
+senha = input('Insira a senha: ')
+
+if usuario.upper().strip() == "INFINITY" and senha == 'school':
+    print("LOGIN REALIZADO")
+else:
+    print("ACESSO NEGADO")
+
+   
+ 
+Atividade 11:
+Faça um programa que receba o nome do aluno, duas notas e imprima o resultado
+de acordo com a tabela:
+1) Média maior que 7.0: Aprovado com conceito A
+2) Média maior que 5.0 e menor que 7,0: Aprovado com conceito B
+3) Média maior que 4.0 e menor 5,0: Aluno fará avaliação final
+4) Média menor que 4.0: Reprovado :/
+
+OBS: Apresente o nome do aluno, sua média final e sua situação.
+"""
+    
+
+    
+   nome = input("Digite o nome do aluno: ")
+nota1 = float(input("Informe a primeira nota: "))
+nota2 = float(input("Informe a segunda nota: "))
+media = (nota1 + nota2)/ 2
+if media > 7:
+    print(f"O aluno(a) {nome} teve a média {media:.2f} e foi Aprovado com conceito A!")
+elif media >= 5 and media <= 7:
+    print(f"O aluno(a) {nome} teve a média {media:.2f} e foi Aprovado com conceito B!")
+elif media >= 4 and media < 5:
+    print(f"O aluno(a) {nome} teve a média {media:.2f} e fará avaliação final!")
+else:
+    print(f"O aluno(a) {nome} teve a média {media:.2f} e infelizmente foi reprovado!")
+
+ 
+    
+   
+    
 
 
